@@ -1,0 +1,101 @@
+2048 Oyunu Algoritması
+
+o Kare matris üzerinde olacak.
+o İlk başlangıçta rastgele 2 kare dolu olacak.
+o Her event gerçekleştiğinde 3/4 oranda 2, 1/4 oranda 4 spawnlanacak.
+o Ok tuşları ile yönlendirilecek. Basılan tarafa doğru dolu olan elemanlar sırayla taşınacak.
+o Basılan yönde peş peşe 2 tane aynı eleman olursa sayılar toplanıyor.
+
+
+i,j
+
+
+
+
+
+0 0 0 0
+0 0 0 0 
+0 0 0 0
+0 0 0 0
+
+0 1 2 3		
+4 5 6 7
+8 9 10 11
+12 13 14 15	
+
+
+i*4+j	
+
+i = 0
+j = ?
+
+i+0 = 0		0	i*4+0
+i+1 = 1		0	i*4+1
+i+2 = 2		0	i*4+2
+i+3 = 3		0	i*4+3
+
+i = 1
+j = ?
+
+i+0+4 =	5	4	i*4+0
+i+1+4 = 6	5
+i+2+4 = 7	6
+i+3+4 = 8	7
+
+i = 2
+j = ?
+
+i+0+8 = 10	8
+i+1+8 = 11	9
+i+2+8 = 12	10
+i+3+8 = 13	11
+
+
+
+
+
+0 3
+i*4+j
+
+
+  0 1 2 3 
+  2 4 2 0
+  2 2 0 0
+  2 0 0 0 
+
+
+
+
+72pt
+48pt
+32pt
+16pt
+
+
+
+1 0 0 0
+2 4 0 0
+4 2 4 0
+0 0 0 0
+
+Hiç toplamazsa
+Hiç kaydırmazsa
+
+
+----------------------------------------
+
+
+530 x 530
+
+0 1 0 1 0 1 0 1 0
+10 120 10 120 10 120 10 120 10
+
+--------------------------------------------
+
+
+600
+
+285 405 415 535 545 665 675 795 840
+
+30 120 10 120 10 120 10 120 30
+
