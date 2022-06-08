@@ -15,7 +15,7 @@ Klavye inputlarını kullanarak nesneleri hareket ettirebileceğim ve farklı al
 
 ## Uygulama Hakkında
 
-Oyun, uygulamanın **BAŞLAT** butonuna tıklandığı zaman başlar. Yön tuşları ile bloklar hareket ettirilir ve hareket edilemeyecek duruma geldiği zaman oyun biter.
+Oyun, uygulamanın **BAŞLA** butonuna tıklandığı zaman başlar. Yön tuşları ile bloklar hareket ettirilir ve hareket edilemeyecek duruma geldiği zaman oyun biter.
 
 ![](./examples/mainpage.png)
 
